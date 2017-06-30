@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Trade Gothic LT Std";
+  src: url('../fonts/TradeGothicLTStd.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Trade Gothic LT Std";
+  src: url('../fonts/TradeGothicLTBold.otf');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Anothershabby Trial";
+  src: url('../fonts/Anothershabby_trial.ttf');
+}
+
+:global html,
+:global body {
+  font-family: "Trade Gothic LT Std";
+  margin: 0;
+}
+
+:global p,
+:global input,
+:global button {
+  font-family: "Trade Gothic LT Std";
+  margin: 0;
+}
+
+img,
+iframe,
+video,
+picture {
+  max-width: 100%;
+}

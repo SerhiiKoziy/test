@@ -1,0 +1,172 @@
+@import 'src/styles/queries.css';
+@import 'src/styles/keyframes.css';
+
+.container {
+    margin: 0 auto;
+}
+
+.main_footer {
+    background-color: #e8e8e8;
+    padding: 24px 0;
+    
+    & h2 {
+        text-transform: uppercase;
+        color: black;
+        margin: 0 0 24px 0;
+    }
+
+    & .container {
+        display: flex;
+
+        @media (--screen-sm-down) {
+            flex-direction: column;
+        }
+    }
+}
+
+.credit_cards {
+    margin: 12px 0;
+    padding: 0 24px;
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+    & img {
+        max-width: 75px;
+        margin-right: 10px;
+        height: auto;
+
+        @media screen and (max-width: 767px) {
+            max-width: 32px;
+        }
+    }
+}
+
+.footer_links {
+    flex-basis: 40%;
+    padding: 0 20px;
+
+    @media (--screen-sm-down) {
+        margin-bottom: 48px;
+    }
+
+    & h2 {
+        text-align: center;
+    }
+
+    & ul {
+        list-style: none;
+        padding: 0;
+        margin: 24px 0;
+        column-count: 3;
+
+        & a {
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            color: black;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 12px;
+            transition: opacity 0.25s ease;
+
+            &:hover {
+                opacity: 0.75;
+            }
+        }
+    }
+}
+
+
+.footer_contact {
+    flex-basis: 30%;
+    padding: 0 20px;
+
+    @media (--screen-sm-down) {
+        margin-bottom: 48px;
+    }
+}
+
+.footer_assistenza {
+    flex-basis: 30%;
+    padding: 0 20px;
+
+    @media (--screen-sm-down) {
+        margin-bottom: 48px;
+    }
+
+    & .p {
+        font-size: 0.8rem;
+        margin-bottom: 32px;
+    }
+
+    & a {
+        color: black;
+        text-decoration: underline;
+        transition: opacity 0.25s ease;
+        &:hover {
+            opacity: 0.75;
+        }
+    }
+}
+
+.copyright {
+    font-size: 10px;
+    padding: 0 20px;
+    text-align: center;
+    display: block;
+}
+
+/* Newsletter */
+.newsletterFormWrapper {
+    margin: 22px 0;
+    display: flex;
+    align-items: center;
+
+    & .newsletterForm {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: stretch;
+        padding:  0;
+
+        & .newsLetterCheckbox {
+            position: absolute;
+            bottom: -32px;
+            left: 0;
+            font-size: 11px;
+        }
+
+        & .inputText {
+            font-size: 14px;
+            padding: 0 12px;
+            width: 80%;
+            height: 63px;
+            line-height: 65px;
+            border: 1px solid black;
+        }
+
+        & .submit {
+            height: 65px;
+            width: 65px;
+            padding: 12px;
+            box-sizing: border-box;
+            background-color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid black;
+            margin-left: 6px;
+            & i {
+                color: white;
+            }
+        }
+    }
+
+    & .iconWrapper {
+        margin-right: 12px;
+    }
+
+    & i {
+        font-size: 32px;
+        color: black;
+    }
+}

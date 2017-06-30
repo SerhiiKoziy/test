@@ -1,0 +1,948 @@
+{
+  "ready": "## Ready  \n[CommonMark](http://commonmark.org/)",
+  "labels": {
+    "suggestProductForm": {
+      "senderName": "Your name",
+      "senderEmail": "Your email",
+      "friendName": "Friend's name",
+      "friendEmail": "Friend's email",
+      "message": "Hi there! Take a look at this item"
+    },
+    "privateFiscalForm": {
+      "iban": "IBAN",
+      "fiscal_code": "Social Security number",
+      "identity_proof": "Identity proof"
+    },
+    "newMessageForm": {
+      "message": "Write here your message"
+    },
+    "privateProfileForm": {
+      "username": "Nickname",
+      "first_name": "First name",
+      "last_name": "Last name",
+      "email": "Email",
+      "fake_password": "Password",
+      "password_current": "Current password",
+      "password_new": "New password",
+      "password_new_confirm": "Repeat new password",
+      "availability": "Availability",
+      "available": "Available",
+      "on_holidays": "On holiday",
+      "genre": "Gender",
+      "male": "MALE",
+      "female": "FEMALE",
+      "away_start": {
+        "label": "Holidays start",
+        "placeholder": "i.e. 25/12/2014"
+      },
+      "away_end": {
+        "label": "Holidays end",
+        "placeholder": "i.e. 30/12/2014"
+      },
+      "birthdate": {
+        "label": "Birth date",
+        "placeholder": "i.e. 30/12/1980"
+      },
+      "mobile_number": "Phone number",
+      "about_me": "About me",
+      "newsletter_subscription": "I want to receive the PrivateGriffe newsletter"
+    },
+    "usernameForm": {
+      "username": "Choose a nickname"
+    },
+    "signInForm": {
+      "email": "Email",
+      "password": "Password",
+      "remember_me": "Remember me"
+    },
+    "editProduct": {
+      "old_price": "Current price",
+      "sale_price": "New price",
+      "seller_amount_to_show": "Your profit",
+      "promo": {
+        "label": "Aderendo alle promozioni della piattaforma ti garantirai maggiore visibilità e probabilità di vendere il tuo oggetto [IT]",
+        "placeholder": "Promotion"
+      },
+      "promo_price": {
+        "label": "Promotional price"
+      },
+      "promo_seller_amount": {
+        "label": "Your profit with promo"
+      }
+    },
+    "newCommentForm": {
+      "comment": "Write here your question about the item. Personal infos exchanges, trolling and disturbing comments are not allowed. We invite you to check our netiquette policy.",
+      "submit": "Submit"
+    },
+    "registrationForm": {
+      "email": "Email",
+      "password": "Password",
+      "confirmEmail": "Confirm email",
+      "accept_terms": "I agree to PrivateGriffe's <a href='/p/terms-conditions' target='_blank'>general terms</a> and <a href='/p/privacy' target='_blank'>privacy</a>",
+      "subscribe": "Subscribe to PrivateGriffe newsletter"
+    },
+    "addressForm": {
+      "full_name": "First name, last name",
+      "first_name": "First name",
+      "last_name": "Last name",
+      "basic_infos": "Address, Number",
+      "additional_infos": "Note",
+      "zip": "Postal code",
+      "city": "City",
+      "country_id": "Country",
+      "phone": "Telephone",
+      "email": "Email",
+      "surname": "Last name",
+      "fiscal_code": "Fiscal code"
+    },
+    "newsletterForm": {
+      "email": "Email"
+    },
+    "productForm1": {
+      "universe": "Universe",
+      "category": "Category",
+      "subcategory": "Subcategory",
+      "brand": "Brand",
+      "newBrand": "New brand",
+      "title": "Item name",
+      "description_en": "Description EN",
+      "description_it": "Description IT",
+      "user_email": {
+        "label": "email",
+        "placeholder": "your email address"
+      },
+      "user_name": {
+        "label": "Name",
+        "placeholder": "your name"
+      },
+      "user_password": {
+        "label": "password",
+        "placeholder": "your password"
+      },
+      "user_subscribe": {
+        "label": "Subscribe to PrivateGriffe newsletter"
+      }
+    },
+    "productForm2": {
+      "material": "Material",
+      "color": "Color",
+      "season": "Season",
+      "size": "Size",
+      "conditions": "Conditions",
+      "width": "Width",
+      "height": "Height ",
+      "depth": "Depth",
+      "conditions_id": "Conditions",
+      "vintage": "Vintage (with more than 20 years, preferebly branded and limited)",
+      "width_with_letter": "Width (A)",
+      "height_with_letter": "Height (B)",
+      "depth_with_letter": "Depth (C)",
+      "dimensions": "Dimensions",
+      "modal_dialog_size": "You choosed {{selectedValue}} {{selectedUnit}} that is correlate to {{corrispondentValue}} {{corrispondentUnit}}. Do you confirm your choice?"
+    },
+    "productForm4": {
+      "sale_price": "Sale price",
+      "purchase_price": {
+        "label": "Estimated price of the new",
+        "placeholder": "Estimated price of the new"
+      },
+      "seller_amount": "Your profit",
+      "enable_charity": "Donate my item to charity",
+      "charity": "Donate proceeds to",
+      "accept_tos": "I have read and accept the general terms and selling condition and have been informed that the product withdrawal, in case of sale, will be applied only on the italian territory.",
+      "username": "Choose a nickname",
+      "mobile_number": "Mobile number",
+      "promo": "Aderisco a promozioni [IT]",
+      "user_email": {
+        "label": "Email",
+        "placeholder": "your email"
+      },
+      "user_name": {
+        "label": "Name",
+        "placeholder": "your name"
+      },
+      "user_password": {
+        "label": "Password",
+        "placeholder": "password"
+      },
+      "user_subscribe": {
+        "label": "Subscribe to PrivateGriffe newsletter"
+      }
+    },
+    "orderForm": {
+      "address": "Indirizzo di ritiro",
+      "bank_details": "Dati bancari",
+      "iban_holder": {
+        "label": "Holder IBAN"
+      },
+      "iban": {
+        "label": "IBAN"
+      },
+      "pickup_days": "Data di ritiro",
+      "reason": "Per quale motivo stai chiedendo il reso?",
+      "reason_detail": "Motivazione:"
+    }
+  },
+  "errors": {
+    "number": "number required",
+    "email": "this field requires valid email",
+    "email_with_host": "this field requires valid email",
+    "invalid_format": "invalid format",
+    "required": "required field",
+    "minlength": "this field should be atleast {{ngMinlength}} characters",
+    "maxlength": "this field should not be longer than {{ngMaxlength}} characters",
+    "min": "the price cannot be less than €{{min}}",
+    "max": "the price cannot be more than €{{max}}",
+    "equals": "field does not match",
+    "not_equal_to": "the field must not be equal to the preceding",
+    "lowerThan": "must be less than the estimated price of the new",
+    "min_images": "add at least 3 photos",
+    "submit_not_valid": "Error informations!",
+    "generic": "The operation is not completed succesfully",
+    "pattern": "invalid format",
+    "unauthorized": "Action not authorized. Retry login.",
+    "valid_date": "invalid date",
+    "valid_integer": "value must be an integer",
+    "valid_username": "username invalid",
+    "valid_phone_number": "invalid phone number",
+    "server_side_invalid_password": "invalid password",
+    "server_side_email_already_taken": "email already in use",
+    "server_side_username_already_taken": "nickname already exist",
+    "server_side_email_already_subscribed": "email already registered",
+    "server_side_not_registered": "email not registered",
+    "server_side_invalid_date": "invalid date",
+    "server_side_invalid_format": "invalid format"
+  },
+  "required_authentication": {
+    "generic": "To access this section you have to sign in or register first",
+    "wishlist": "Please register to add items on wishlist!",
+    "purchase": "Please login or register to complete your purchase",
+    "sell": "Please login or register to sell items",
+    "comment": "Please login or register to add comment on this item"
+  },
+  "required_email_confirmation": {
+    "sell": "Please confirm your email to upload your item",
+    "comment": "Please confirm your email to add comment",
+    "bank_transfer": "In order to do bank transfer, you must first confirm your registration"
+  },
+  "required_username": {
+    "comment": " Please set a nickname to add comment"
+  },
+  "username": {
+    "success": "Username successfully set!",
+    "submit": "Submit",
+    "hint": "You can always change your nickname from your profile"
+  },
+  "home": {
+    "new-in": "New in",
+    "discounts": "Sale",
+    "showcase": "We love",
+    "block_1": {
+      "title": "Product checking",
+      "description": "<p>We check every item before shipping it. If the item does not pass the product inspection <strong>we will fully reimburse the amount you paid</strong>!</p>"
+    },
+    "block_2": {
+      "title": "Fast and secure payments and shipping",
+      "description": "<p>Fast shipping via UPS only the after the product has been verified. You can safely pay with different payment methods.</p>"
+    },
+    "block_3": {
+      "title": "Registered users"
+    },
+    "block_4": {
+      "title": "Subscribe to newsletter"
+    }
+  },
+  "filters": {
+    "title": "Filters",
+    "sort_up": "Sort by",
+    "filter_up": "Filter by",
+    "close": "Close filters",
+    "placeholder": "Filter...",
+    "brand_filter": "Search brand...."
+  },
+  "draft": {
+    "creation_date": "Draft saved on <date>{{date}}</date>",
+    "price_not_available": "Price not available"
+  },
+  "product": {
+    "id": "Product ID",
+    "size": "Size",
+    "details": "Details",
+    "material": "Material",
+    "width": "Width",
+    "height": "Height",
+    "depth": "Depth",
+    "color": "Color",
+    "season": "Season",
+    "controlled": "Controlled",
+    "comments": {
+      "title": "Ask to the seller",
+      "you": "You",
+      "deleted": "Removed comment",
+      "delete": "Remove",
+      "close": "Close",
+      "reply": "Reply",
+      "no_comments": "There are no questions for this product yet.",
+      "invalid_content": "Inappropriate content",
+      "writeNewComment": "Write a new comment"
+    },
+    "shipment": "Shipment",
+    "shipment_description": "Both domestic and international transactions will be shipped via express courier. The price for domestic shipping in Italy is 8 euros. For international shipping, prices varies depending on the country.",
+    "suggest": "Send to a friend",
+    "submit_suggestion": "Send",
+    "sent_suggestion": "Email sent",
+    "payment_method": "Payment methods",
+    "payment_method_description": "Method of Payments are accepted through CREDIT CARD, PAYPAL and BANK TRANSFER.",
+    "return_policy": "Return policy",
+    "conditions": "Conditions",
+    "on_holiday": "Item not available at the moment",
+    "not_approved": "This item is no longer available",
+    "pending": "This item is yet to be approved",
+    "withdrawn": "This item is no longer available",
+    "rejected": "This item has been rejected",
+    "not_available": "This item has already been sold",
+    "sold_by": "Sold by",
+    "purchase_price": "Estimated price of the new:",
+    "informations": {
+      "title": "Additional infos",
+      "content": "Se vuoi che il Team di esperti di Privategriffe controlli la conformità di questo prodotto rispetto a quanto descritto online dal Venditore prima che ti venga inviato, richiedi l’Opzione Controllo",
+      "content_control": "Il Team di esperti di Privategriffe prima di inviare il Prodotto verificherà preventivamente che sia conforme a quanto descritto online dal Venditore"
+    },
+    "return_conditions_link": "More infos",
+    "sell_date": "Sold on <date>{{date}}</date>",
+    "withdraw_date": "Withdrawn since <date>{{date}}</date>",
+    "approval_date": "For sale since <date>{{date}}</date>",
+    "toolbar": {
+      "edit": "Update",
+      "lower_down": "Lower down price",
+      "withdraw": "Withdraw from sale",
+      "delete": "Delete",
+      "control": "Control",
+      "confirm_withdraw": "Are you sure you want to withdraw this product?",
+      "confirm_delete": "Do you really want to delete the product?",
+      "update_success": "Product updated",
+      "withdraw_success": "Product withdrawn successfully!",
+      "delete_success": "Product deleted successfully",
+      "submit_lower_down": "Reduce price",
+      "cancel": "Cancel",
+      "resell": "Reload item",
+      "update": "Save",
+      "promos": "Promo",
+      "add_description": "Add Description:",
+      "add_images": "Add images:",
+      "save": "UPDATE",
+      "share": "Share"
+    },
+    "messages": "Messages",
+    "seller": {
+      "private": "Private Seller",
+      "pro": "Professional Seller"
+    },
+    "promo": {
+      "end_date": "The promo on this item is valid until <date>{{date}}</date>"
+    },
+    "sale_price": "Sale price",
+    "seller_amount": "Your profit",
+    "sold_product": {
+      "alternatives": "This product is not for sale"
+    }
+  },
+  "checkout": {
+    "shipping_address": "Shipping address",
+    "billing_address": "Billing address",
+    "back": "Back",
+    "continue": "Continue",
+    "promo_code": "Promos and coupon",
+    "payment_method": "Payment method",
+    "use_wallet_credit": "Use wallet credit",
+    "have_coupon": "I have discount coupons",
+    "coupon_not_valid": "Coupon not valid!",
+    "coupon_not_applicable": "Coupon not applicable to this cart",
+    "bank_transfer": "Bank transfer",
+    "online_bank_transfer": "SOFORT",
+    "credit_card": "Credit Card",
+    "payment_in_progress_paypal": "Please wait, we are redirecting you to the payment system.",
+    "payment_in_progress_bank_transfer": "Please wait, we are processing your order.",
+    "payment_in_progress_online_bank_transfer": "Please wait, we are redirecting you to the payment system.",
+    "payment_in_progress_credit_card": "Please wait, we are redirecting you to the payment system.",
+    "bank_transfer_warning": "In order to do bank transfer, you must first confirm your email",
+    "bank_transfer_warning_link": "Click here to confirm"
+  },
+  "sell": {
+    "title": "Sell",
+    "description": "Description",
+    "details": "Details",
+    "image": "Photos (at least 3)",
+    "put_on_sale": "Put on sale",
+    "next": "Next",
+    "save_draft": "Save draft",
+    "back": "Back",
+    "save_product": "Save Product",
+    "brand_not_present": "The brand is not present in our archive?",
+    "back_to_brands": "Back to archive brands",
+    "legalese": "<p>Con il completamento e l'invio della scheda del Prodotto dichiaro di assumere la piena responsabilità in merito alle mie dichiarazioni ed alle immagini, di conoscere le Condizioni d'Uso e di rispettarle, che il Prodotto è da me vendibile, di provenienza lecita ed autentico.</p><p>Se sei un Venditore PROFESSIONALE contattaci all'indirizzo <a href='negozi@privategriffe.com'>negozi@privategriffe.com</a>.</p>",
+    "hints": {
+      "new_brand": "<p>Suggest a new brand: the management reserves the acceptance or rejection of the brand.</p>",
+      "title": "<p>Use a short and significant name. DO NOT repeat the brand name.</p>",
+      "description": "<p>Be honest and specific about the conditions of item: A good description will help you sell it easier. Describe the details:</p><ul><li>material, cut, size</li><li>date of purchase</li><li>defects such as stains or damage</li></ul><p>Specify if you have</p><ul><li>original packaging</li><li>certificate of authenticity</li></ul>",
+      "description2": "<p>Materials, size, dimensions<br/>Purchase data<br/>Defects<br/>Possession of tags and packaging<br/>Certificate of authenticity</p>",
+      "size": "<p>Enter the exact size of the item that is indicated in brand's label</p>",
+      "dimensions": "<p>Enter the exact dimensions of the item</p>",
+      "conditions": "<p>Select the condition of the product. Choose only one option that will match the actual condition of the item.</p><p>In case of descrepancies with the product selected, price reduction or cancellation will be applied.</p>",
+      "vintage": "<p>Item with more than 20 years, preferebly branded and limited items.</p>",
+      "images": "<ul><li>Choose a white background.</li><li>It should be hanged, worn or placed in a flat surface and in order.</li><li>Item details (such as labels, processing, certificates of authenticity) should be shown well in the pictures.</li></ul>",
+      "images2": "Insert atleast 3 photos jpg or png format",
+      "images_how_to": "How to take the photos",
+      "price": "<p>Enter the price you wish. We suggest to put the item on sale from 40% up to 70% less than the original price. Also consider the year purchased, condition and marketability of the item in price computation. Search similar products on our website to compare with your item.</p><p>Enter the selling price of the item and it will be automatically calculated including charges such as PrivateGriffe's commision.</p>",
+      "price2": "We suggest to put the item on sale from 40% up to 70% less than the original price",
+      "charity": "For more informations visit {{link}}",
+      "charity_coditions_link": "Charity Conditions",
+      "charity_conditions": "<p>With reference to the act of the chosen donation, please note that the decision to donate part of the proceeds of your exclusive competence of the sale of the garment of your exclusive property to the charity chosen by you, is an act of disposal on your part and is exclusively attributable to you, with the exclusion of any participation by PrivateGriffe.</p><h4>Condizioni charity</h4><p>You consent, under Legislative Decree 196/2003, Privategriffe S.P.A. and the Charity Association you have specifically chosen to handle the information you have provide for the purposes related and/or connected to the donation relative to the amounts of your exclusive responsibility arising from the sale of the garment of your property through the site www.PrivateGriffe.com and any subsequent amendments. The failure to provide consent of the data will not allow you to perform the donation in favor of the Charity Association of your choice. The data will be handled through consultation, elaboration, comparison with predetermined criteria and other opportune operations with tools and PC software programs as well as non-automated instruments suitable for guaranteeing security and confidentiality. Privategriffe S.P.A. and the Charity Association you have chosen are autonomous handlers of the data you have provided. You may, in any case and at any time exercise the rights under Article 7 of the Privacy Code (access, correction, integration, cancellation, transformation in an anonymous form, opposition to the handling). You can exercise your right to access, correction or deletion of any personal data by sending a notice to the e-mail address: privacy@privategriffe.it.</p>",
+      "username": "<p>Your name will be publicly viewed in your product details.</p>",
+      "mobile_number": "<p>Your number will not be visible in the product details.</p>",
+      "mobile_number2": "It will not be visible on site",
+      "promo": "<p>Aderendo alle promozioni della piattaforma ti garantirai maggiore visibilità e probabilità di vendere il tuo oggetto [IT]</p>",
+      "control": "<p>Offrendo il controllo ti garantirai maggiore visibilità sul sito e maggiori probabilità di vendere il tuo oggetto [IT]</p>",
+      "control_amount": "Add control (+ € {{amount}})",
+      "control_included": "Control included",
+      "control_unavailable": "Control not available",
+      "describe": "Describe"
+    },
+    "already_have_a_profile": "Already registered?",
+    "profile_connect_to_facebook": "Connect with Facebook",
+    "sign_in": "Login",
+    "your_profile": "Your Profile",
+    "condition_invalid_if": "Not valid if"
+  },
+  "sell_steps": {
+    "description": "1. Description",
+    "details": "2. Details",
+    "image": "3. Photos",
+    "put_on_sale": "4. Put on sale"
+  },
+  "authentication": {
+    "signin": "Login",
+    "logout": "Logout",
+    "registration": "Sign up",
+    "reset_password": "Request a new password",
+    "reset_password_success": "An email will be sent to {{email}} with your new password",
+    "request_signin": "Please login",
+    "forgot_password": "Forgot password?",
+    "submit_password_reset": "Submit",
+    "submit_signin": "Sign in",
+    "login_success": "Login successfull",
+    "login_failure": "Informations not valid",
+    "logout_success": "Logout successfull",
+    "facebook_hint": "Login using your facebook account",
+    "facebook_login_success": "Your facebook account has successfully logged in!"
+  },
+  "follow_user": {
+    "follow": "Follow",
+    "unfollow": "Unfollow"
+  },
+  "pagination": {
+    "next": "See others"
+  },
+  "navigation": {
+    "new-in": "New in",
+    "catalog": "Catalog",
+    "brand": "Brand",
+    "discounts": "Sale",
+    "blog": "Blog",
+    "how-it-works": "How it works?",
+    "see_all": "See all",
+    "contact_us": "Contact us",
+    "follow_us": "Follow us",
+    "download_app": "App",
+    "user_menu": "User menu",
+    "sell": "Sell",
+    "search": "Search",
+    "sitemap": "Sitemap",
+    "profile": "Profile",
+    "need_help": "<p>Need help?</p><p>+39 0284259890 / <a href='mailto:help@privategriffe.com'>help@privategriffe.com</a></p>",
+    "invite_friends": "invite a friend",
+    "invite_friends_short": "GUADAGNA 10€"
+  },
+  "brands": {
+    "title": "Brand {{universe}}",
+    "search_placeholder": "Search brand ...",
+    "universe": "Universe"
+  },
+  "registration": {
+    "register": "Register",
+    "done": "Thanks for your registration"
+  },
+  "autocomplete": {
+    "no_options": "No options available"
+  },
+  "conditions_table": {
+    "accepted": "Accepted",
+    "not_accepted": "Not accepted"
+  },
+  "cart": {
+    "title": "Cart",
+    "summary": "Cart Summary",
+    "customer_details": "Customer details",
+    "payment": "Payment",
+    "shipping_cost": "Shipping cost",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "continue": "Continue",
+    "add": "Add to cart",
+    "added": "Item added to your cart!",
+    "remove": "Remove from cart",
+    "buy": "Buy",
+    "flash_added": "Item was successfully added to your cart!",
+    "flash_error": "This item is no longer available",
+    "close": "Continue shopping",
+    "control_included": "Control included",
+    "control_info": {
+      "title": "Control Option",
+      "content": "Se vuoi che il Team di esperti di Privategriffe controlli la conformità di questo prodotto rispetto a quanto descritto online dal Venditore prima che ti venga inviato, richiedi l’Opzione Controllo"
+    },
+    "promo_info": {
+      "coupon_not_used_content": "Lo sconto del coupon non si può applicare ai prodotti già in promozione",
+      "coupon_not_used_title": "Coupon not valid for this purchase!",
+      "coupon_partially_content": "Lo sconto del coupon non è cumulabile e verrà applicato unicamente ai prodotti non in promozione.",
+      "coupon_partially_title": "Coupon valid only for the items not in promo!"
+    },
+    "total_price": "TOTAL"
+  },
+  "newsletter": {
+    "subscribe": "Subscribe to newsletter",
+    "subscribed": "Registered successfully!"
+  },
+  "email_confirmation": {
+    "action": "Send me an email confirmation",
+    "check": "Email confirmed, continue",
+    "hint_1": "In case the email confirmation is not received check spam messages.  For problems email to <a href='mailto:help@privategriffe.com'>help@privategriffe.com</a>",
+    "hint_2": "Have you confirmed your email?",
+    "success": " Email confirmed  successfully!",
+    "error": "Email not yet confirmed!",
+    "sent": "Confirmation email was sent successfully to {{email}}!",
+    "send-activation": "send me a new confirmation email"
+  },
+  "checkspam_dialog": {
+    "password_reset": "If you do not receive the email, check the Spam, Junk and Promotion sections. For any questions send an email to <a href='mailto:help@privategriffe.com'>help@privategriffe.com</a>",
+    "registration": "We have sent you an email with a link to verify your email address and confirm your registration. If you do not receive the email, check the Spam, Junk and Promotion sections.<br><br>Thanks, Privategriffe.com"
+  },
+  "address_manager": {
+    "new": "New address",
+    "edit_button": "Edit",
+    "create_button": "Save",
+    "cancel": "Cancel",
+    "remove_confirm": "Are you sure you want to delete this address?",
+    "copy": "Copy from shipping address"
+  },
+  "wishlist": {
+    "latest": "Last items on wishlist",
+    "see_all": "See all",
+    "close": "Close wishlist"
+  },
+  "pages": {
+    "about": "About us",
+    "how_it_works": "How it works?",
+    "faq": "FAQ",
+    "become_seller": "Become a seller",
+    "terms_conditions": "Terms conditions",
+    "return_conditions": "Terms of returned goods",
+    "privacy": "Privacy policy",
+    "copyright": "Copyright",
+    "cookies_policy": "Cookies policy",
+    "charity": "Charity"
+  },
+  "external": {
+    "community": "Community",
+    "blog": "Blog",
+    "charity": "Charity",
+    "about_us": "About us",
+    "contact_us": "Contact us",
+    "press_release": "Press release",
+    "profile": "Profile",
+    "looks": "My looks",
+    "fees": "Fees",
+    "cookie_policy": "By continuing to use this site you agree to our use of cookies as described in this Cookies Policy"
+  },
+  "products_count": {
+    "zero": "No items found",
+    "one": "One item",
+    "other": "{{count}} items"
+  },
+  "orders_count": {
+    "zero": "No orders",
+    "one": "One order",
+    "other": "{{count}} orders"
+  },
+  "brands_count": {
+    "zero": "No brand found",
+    "one": "One brand",
+    "other": "{{count}} brands"
+  },
+  "catalog": {
+    "no_products_available": "No products available!",
+    "sort_similar": "Similarities",
+    "sort_recent": "Most recent",
+    "sort_cheaper": "Lowest price",
+    "sort_pricey": "Highest price",
+    "sort_older": "Older to newer",
+    "title_discount": "Sale",
+    "title_newIn": "New In",
+    "title_catalog": "Catalog",
+    "title_search": "Search",
+    "filters": {
+      "brand": "Brand",
+      "price": "Price",
+      "size": "Size",
+      "universe": "Universe",
+      "categories": "Category",
+      "season": "Season",
+      "conditions": "Condition",
+      "merchant": "Sellers",
+      "shipping": "Shipping",
+      "control": "Control",
+      "promo": "Promotion"
+    },
+    "shipping": {
+      "normal": "Standard shipping",
+      "fast": "Fast shipping"
+    },
+    "control": {
+      "yes": "Controlled by Privategriffe",
+      "no": "No control"
+    },
+    "merchant": {
+      "private": "Private",
+      "pro": "Professional"
+    }
+  },
+  "purchase": {
+    "empty_cart": "Your cart is empty!",
+    "product_unavailable": "One or more items present on  your shopping bag is no longer available!",
+    "product_reconfirm": "One or more item on your cart is no longer available!",
+    "promo_product": "Promo items",
+    "promo_coupon": "Promo coupons",
+    "promo_total": "Purchased promo",
+    "promo_wallet": "Wallet promo",
+    "promo_shipping": "Shipping promos",
+    "no_shipping_address": "You have not yet specified your shipping address.",
+    "no_invoicing_address": "You have not yet specified your billing address.",
+    "no_fiscal_code": "In order to receive the invoice, you have to specify the fiscal code on to you invoice address",
+    "require_invoice": "I want to receive an invoice for the products I'm buying from Professional Sellers",
+    "prompt_save_addresses": "Do you want to save the modifies?"
+  },
+  "footer": {
+    "legal": "Copyright 2012-2017 PRIVATEGRIFFE S.p.A. Partita IVA: 07749790965 Capitale Sociale € 244.224 interamente versato. Sede legale: Via Felice Casati, 20 20124 Milano",
+    "help": "<p>For informations regarding the shipments, items ordered and payment methods, contact us via mail at <a href='mailto:help@privategriffe.com'>help@privategriffe.com</a> or by telephone at +39 0284259890</p>",
+    "pro_seller_help": "<p>Se sei un <strong>venditore professionale</strong> e vuoi vendere i tuoi prodotti contattaci all'indirizzo: <a href='mailto:negozi@privategriffe.com'>negozi@privategriffe.com</a></p>",
+    "legal2": "Società a socio unico soggetta ad attività di direzione e coordinamento da parte di axélero S.p.A."
+  },
+  "sell_complete": {
+    "title": "Your request has been successfully submitted!",
+    "subtitle": "You will recive a confirmation shortly that your item has been published",
+    "cta": "Load a new product",
+    "product_id": "Product ID:"
+  },
+  "sell_complete_email_not_confirmed": {
+    "title": "Complete your upload by confirming the data through the link we sent you by e-mail"
+  },
+  "draft_complete": {
+    "title": "Your item has been saved as draft!",
+    "subtitle": "You can retrieve and complete your shopping from your pofile account",
+    "cta": "Retrieve"
+  },
+  "purchase_fail": {
+    "title": {
+      "error": "Unfortunately your payment has not been authorized",
+      "retry": "Your payment was not successful"
+    },
+    "content": {
+      "error": "We've cancelled your order and put back online the items in it, please control your card's data and retry to order",
+      "retry": "You're still in time to complete your purchase, just choose the payment method:"
+    },
+    "invalid_payment_method": "Invalid payment method",
+    "unprocessable_order": "Invalid order",
+    "expired_order": "Order time expired",
+    "cta": "OK"
+  },
+  "purchase_complete": {
+    "title": "Congratulations, your order has been completed!",
+    "subtitle": "You will receive an email shortly with the delivery details .",
+    "cta": "Continue shopping",
+    "order_id": "ID order:",
+    "yours_at_last": "Yours at last"
+  },
+  "required_field": "Required field",
+  "page_not_found": {
+    "title": "Page not found"
+  },
+  "header": {
+    "cookie_notice": "By continuing to browse this website you are agreeing to our use of <a href='/p/cookie-policy'>cookies</a>.",
+    "close_cookie_notice": "Close",
+    "search": "Search items...",
+    "activate_account_reminder_1": "Clicca sul link di attivazione che ti abbiamo spedito via email",
+    "activate_account_reminder_2": "per convalidare il tuo indirizzo di posta",
+    "activate_account_reminder_send_mail": "<strong>ATTENZIONE!!</strong> Solo confermando il tuo indirizzo di posta elettronica tramite il link che ti abbiamo inviato via email potrai mettere in vendita i tuo articoli",
+    "OK": "Email confirmed"
+  },
+  "private": {
+    "navigation": {
+      "purchases": "Purchases",
+      "profile": "Profile",
+      "product_drafts": "Drafts",
+      "general_profile": "General data",
+      "fiscal_profile": "Fiscal data",
+      "orders": "My orders",
+      "addresses_profile": "Addresses"
+    },
+    "profile": {
+      "title": "Your Profile",
+      "edit_password": "Update password",
+      "cancel_edit_password": "Edit",
+      "submit": "Apply Changes",
+      "dialog_warning": "Warning!",
+      "destroy_products": "Withdraws all products",
+      "destroy_products_confirm": "You're asking to withdraw all products.\nIf you confirm this operation all your products currently on sale will be withdrawn, the ones that you have uploaded will be rejected and your saved drafts will be deleted.\n\nConfirm this operation?",
+      "destroy_account": "Delete my profile",
+      "destroy_account_confirm": "You're asking to delete your profile.\nIf you confirm this operation all your products currently on sale will be withdrawn, the ones that you have uploaded will be rejected, your saved drafts and your profile will be deleted.\n\nConfirm this operation?",
+      "destroy_account_success": "Your account has been successfully deleted :(",
+      "edit_success": "Update completed",
+      "destroy_products_success": "All products have been withdrawn from sale",
+      "dialog_confirm": "Confirm",
+      "dialog_cancel": "Cancel"
+    },
+    "fiscal": {
+      "title": "Fiscal data"
+    },
+    "messages": {
+      "title": "Messagges for \"{{title}}\"",
+      "mail_link": "Or <a href='{{mailto}}'>send an email to Privategriffe</a>",
+      "no_messages": "No messages for this product"
+    },
+    "orders": {
+      "title": "Orders",
+      "no_filter": "All",
+      "no_orders_available": "No orders are present",
+      "order_id": "Order #",
+      "date": "Date",
+      "state": "State",
+      "articles_count": "Articles",
+      "total": "Total",
+      "details": "Details",
+      "price": "Price",
+      "pay_order": "Pay",
+      "request_return_item": "Return product",
+      "return_item": "Return",
+      "return_item_cancel": "Cancel",
+      "return_item_confirm": "Confirm"
+    },
+    "addresses": {
+      "title": "Addresses"
+    }
+  },
+  "profile": {
+    "anonymous": "Anonymous user",
+    "navigation": {
+      "products": "Products",
+      "wishlist": "Wishlist",
+      "approved_products": "For sale",
+      "followers": "Followers",
+      "followed": "Followed"
+    },
+    "products": {
+      "filter_approved": "For sale",
+      "filter_sold": "Sold",
+      "filter_withdrawn": "Withdrawn",
+      "filter_pending": "In approval",
+      "filter_rejected": "Rejected"
+    }
+  },
+  "upload": {
+    "load": "Upload image...",
+    "edit": "Edit Image",
+    "product_photo": {
+      "photo": "Foto",
+      "add_photo": "Aggiungi",
+      "add_other_details": "Puoi inserire qui altre foto di dettagli, finiture, difetti se presenti",
+      "other_photo": "Other photo",
+      "other_photo_1": "Dettagli",
+      "other_photo_2": "Confezione",
+      "other_photo_3": "Cartellini / Certificato",
+      "add_other_photo": "Aggiungi un'altra foto"
+    }
+  },
+  "order": {
+    "state": {
+      "waiting_payment": "Waiting payment",
+      "processing": "Processing",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "canceled": "Canceled"
+    }
+  },
+  "newsletter_modal": {
+    "title": "Subscribe to newsletter",
+    "body": "For you <strong>10% discount</strong> for your first purchase",
+    "already_subscribed": "I'm already subscribed",
+    "body_small": "Follow our <strong>exclusive offer</strong> of the best brands.",
+    "privacy": "Subscribe to PrivateGriffe newsletter",
+    "subscribe": "Subscribe to newsletter"
+  },
+  "photo_tutorial": {
+    "dialog_title": "How to take the photos",
+    "step1": {
+      "summary": "Choose the place",
+      "description": "<p>Choose a place with plenty of light, for example, <br/>near a window,<br/> making sure that the item is not directly hit by the sunlight</p>"
+    },
+    "step2": {
+      "summary": "Prepare the ite,",
+      "description": "<p>Stretch well the item on a white or light background.</p>"
+    },
+    "step3": {
+      "summary": "Take atleast 3 photos",
+      "description": "<p>(Front - rear or side details or internal ) <br/> + <br/> any photos of defects or blemishes</p>"
+    }
+  },
+  "activity": {
+    "take_photo": "<em>Take a photo</em><br/>of your item",
+    "insert_product": "<em>Insert it</em><br/>on our site<br/>in just few clicks",
+    "monitor_return": "<em>Monitor</em><br/>your profit<br/>let us handle pickup and delivery!<br/>"
+  },
+  "promo_table": {
+    "title": "Increase your chances of selling your product!",
+    "sub_title": "Specify the maximum percentage discount you want to apply, you will enter in our promotional sales and increase the visibility of your products"
+  },
+  "clerk": {
+    "alternative_products": "Alternative Products",
+    "popular_products_in_catalog": "Most popular",
+    "sold_product": {
+      "alternatives": "we recommend"
+    }
+  },
+  "confirm_modal": {
+    "confirm": "Confirm",
+    "undo": "Cancel"
+  },
+  "how-it-work": {
+    "footer": {
+      "description": {
+        "left": "Desktop",
+        "middle": "TABLET AND SMARTPHONE",
+        "right": "APP MOBILE"
+      },
+      "slogan": "PRIVATEGRIFFE.COM always with you"
+    },
+    "images": {
+      "how-buy": "How to buy",
+      "how-sell": "How to sell"
+    },
+    "title": "How it Works"
+  },
+  "how-sell": {
+    "bottom": {
+      "bottom": {
+        "informations": "More info"
+      },
+      "middle": {
+        "description": "GUARANTEED PAYMENTS"
+      },
+      "top": {
+        "description": "We manage withdrawal and delivery"
+      }
+    },
+    "button": {
+      "sell": "Sell"
+    },
+    "info": {
+      "monitor": {
+        "description": "Your profits",
+        "title": "Follow"
+      },
+      "takephoto": {
+        "description": "of your item",
+        "title": "Take a picture"
+      },
+      "upload": {
+        "description": "on our site, with few clicks",
+        "title": "Upload it"
+      }
+    },
+    "title": "How to sell"
+  },
+  "member-get-member": {
+    "body": {
+      "circles": {
+        "left": {
+          "description": "<strong>Guadagni 10€<br>ogni amico</strong><br>che spenderà<br>i suoi 10€ su<br>PrivateGriffe",
+          "title": "Tu"
+        },
+        "right": {
+          "description": "<strong>Riceverà<br>10€<br>per il suo<br>primo acquisto</strong>",
+          "title": "Il tuo<br>amico"
+        }
+      },
+      "slogan": {
+        "description": "Operazione valida su di una spesa minima di 50€.<br>Credito cumulabile ma non con altre promozioni o iniziative.",
+        "title": "un vantaggio per entrambi!"
+      }
+    },
+    "footer": {
+      "legend": {
+        "confirmed": "Confermato",
+        "error": "Non applicabile",
+        "pending": "In attesa"
+      },
+      "table": {
+        "credit": "credito",
+        "expire": "data invito",
+        "mail-to": "mail inviata a:",
+        "notice": "Il credito è utilizzabile nella fase finale d’acquisto",
+        "purchase-status": "status acquisto",
+        "subscribe-status": "status iscrizione"
+      },
+      "your-invites": "i tuoi inviti"
+    },
+    "invites": {
+      "email": {
+        "btn-title": "INVIA EMAIL",
+        "import": "+ Importa contatti",
+        "placeholder": "Scrivi gli indirizzi separati da virgola",
+        "subtitle": "INVITA AMICI VIA EMAIL"
+      },
+      "facebook": {
+        "btn-title": "CONDIVIDI SU FACEBOOK",
+        "sharer-desc": "La tua amica riceverà 10€ da utilizzare su PrivateGriffe e tu avrai 10€ per ogni amica che li spenderà!",
+        "sharer-title": "Invita le tue amiche su PRIVATEGRIFFE!!",
+        "subtitle": "INVITA AMICI CON FACEBOOK"
+      },
+      "link": {
+        "btn-title": "COPIA",
+        "subtitle": "CONDIVIDI IL TUO LINK",
+        "userLinkToInvite": "il tuo link"
+      }
+    },
+    "invite_success": "emails invito spediti correttamente",
+    "regulations": {
+      "anchor": "Leggi il Regolamento",
+      "link": "/p/regulation-invite-friend"
+    },
+    "title": {
+      "description": "Il tuo amico riceverà 10€ da utilizzare su PrivateGriffe<br>\ne tu avrai 10€ per ogni amico che li spenderà!",
+      "invite": "INVITA UN AMICO"
+    }
+  },
+  "product-social-share": {
+    "description-1": "<strong>Multiply</strong> your sales opportunities",
+    "description-2": "<strong>Share it</strong> on your social profiles",
+    "description-3": "You will have 73% more chances of sales within the first 15 days"
+  },
+  "returns": {
+    "request_success": "Reso registrato correttamente"
+  },
+  "temp_registration": {
+    "complete_registration": "COMPLETA LA TUA REGISTRAZIONE",
+    "complete_registration_description": "per restare aggiornato sul tuo ordine e ricevere le nostre offerte esclusive.",
+    "continue": "Continue",
+    "email_already_exists": "ESISTE UN'UTENZA REGISTRATA CON INDIRIZZO EMAIL",
+    "login_or_continue": "VUOI ACCEDERE O PREFERISCI CONTINUARE L'ACQUISTO CON UN'UTENZA TEMPORANEA?"
+  }
+}

@@ -1,0 +1,892 @@
+{
+    "header.woman": {
+        "link": "/donna",
+        "columns": [
+            {
+                "title": "Abbigliamento",
+                "rows": [
+                    {
+                        "label": "Camicie",
+                        "link": "/c/donna/abbigliamento/camicie"
+                    },
+                    {
+                        "label": "Cappotti",
+                        "link": "/c/donna/abbigliamento/cappotti"
+                    },
+                    {
+                        "label": "Felpe",
+                        "link": "/c/donna/abbigliamento/felpe"
+                    },
+                    {
+                        "label": "Giacche",
+                        "link": "/c/donna/abbigliamento/giacche"
+                    },
+                    {
+                        "label": "Gonne",
+                        "link": "/c/donna/abbigliamento/gonne"
+                    },
+                    {
+                        "label": "Maglieria",
+                        "link": "/c/donna/abbigliamento/maglieria"
+                    },
+                    {
+                        "label": "Mare",
+                        "link": "/c/donna/abbigliamento/mare"
+                    },
+                    {
+                        "label": "Pantaloni",
+                        "link": "/c/donna/abbigliamento/pantaloni"
+                    }
+                ],
+                "see_all_link": "/c/donna/abbigliamento"
+            },
+            {
+                "title": "Borse",
+                "rows": [
+                    {
+                        "label": "Borse a mano",
+                        "link": "/c/donna/borse/borse-a-mano"
+                    },
+                    {
+                        "label": "Borse in pelle",
+                        "link": "/c/donna/borse/borse-in-pelle"
+                    },
+                    {
+                        "label": "Pochette",
+                        "link": "/c/donna/borse/pochette"
+                    },
+                    {
+                        "label": "Shopper",
+                        "link": "/c/donna/borse/shopper"
+                    },
+                    {
+                        "label": "Borse da spalla",
+                        "link": "/c/donna/borse/borse-da-spalla"
+                    },
+                    {
+                        "label": "Borse in tessuto",
+                        "link": "/c/donna/borse/borse-in-tessuto"
+                    },
+                    {
+                        "label": "Borse a tracolla",
+                        "link": "/c/donna/borse/borse-a-tracolla"
+                    },
+                    {
+                        "label": "Valigeria",
+                        "link": "/c/donna/borse/valigeria"
+                    }
+                ],
+                "see_all_link": "/c/donna/borse"
+            },
+            {
+                "title": "Scarpe",
+                "rows": [
+                    {
+                        "label": "Anfibi",
+                        "link": "/c/donna/scarpe/anfibi"
+                    },
+                    {
+                        "label": "Ballerine",
+                        "link": "/c/donna/scarpe/ballerine"
+                    },
+                    {
+                        "label": "Decolletes",
+                        "link": "/c/donna/scarpe/decolletes"
+                    },
+                    {
+                        "label": "Decolletes open toe",
+                        "link": "/c/donna/scarpe/decolletes-open-toe"
+                    },
+                    {
+                        "label": "Infradito",
+                        "link": "/c/donna/scarpe/infradito"
+                    },
+                    {
+                        "label": "Mocassini",
+                        "link": "/c/donna/scarpe/mocassini"
+                    },
+                    {
+                        "label": "Sabot",
+                        "link": "/c/donna/scarpe/sabot"
+                    },
+                    {
+                        "label": "Sandali",
+                        "link": "/c/donna/scarpe/sandali"
+                    }
+                ],
+                "see_all_link": "/c/donna/scarpe"
+            },
+            {
+                "title": "Accessori",
+                "rows": [
+                    {
+                        "label": "Camicie",
+                        "link": "/c/donna/abbigliamento/camicie"
+                    },
+                    {
+                        "label": "Cappotti",
+                        "link": "/c/donna/abbigliamento/cappotti"
+                    },
+                    {
+                        "label": "Felpe",
+                        "link": "/c/donna/abbigliamento/felpe"
+                    },
+                    {
+                        "label": "Giacche",
+                        "link": "/c/donna/abbigliamento/giacche"
+                    },
+                    {
+                        "label": "Gonne",
+                        "link": "/c/donna/abbigliamento/gonne"
+                    },
+                    {
+                        "label": "Maglieria",
+                        "link": "/c/donna/abbigliamento/maglieria"
+                    },
+                    {
+                        "label": "Mare",
+                        "link": "/c/donna/abbigliamento/mare"
+                    },
+                    {
+                        "label": "Pantaloni",
+                        "link": "/c/donna/abbigliamento/pantaloni"
+                    }
+                ],
+                "see_all_link": "/c/donna/accessori"
+            },
+            {
+                "title": "Gioielli",
+                "rows": [
+                    {
+                        "label": "Camicie",
+                        "link": "/c/donna/abbigliamento/camicie"
+                    },
+                    {
+                        "label": "Cappotti",
+                        "link": "/c/donna/abbigliamento/cappotti"
+                    },
+                    {
+                        "label": "Felpe",
+                        "link": "/c/donna/abbigliamento/felpe"
+                    },
+                    {
+                        "label": "Giacche",
+                        "link": "/c/donna/abbigliamento/giacche"
+                    },
+                    {
+                        "label": "Gonne",
+                        "link": "/c/donna/abbigliamento/gonne"
+                    },
+                    {
+                        "label": "Maglieria",
+                        "link": "/c/donna/abbigliamento/maglieria"
+                    },
+                    {
+                        "label": "Mare",
+                        "link": "/c/donna/abbigliamento/mare"
+                    },
+                    {
+                        "label": "Pantaloni",
+                        "link": "/c/donna/abbigliamento/pantaloni"
+                    }
+                ],
+                "see_all_link": "/c/donna/accessori"
+            }
+        ],
+        "publishing_section": {
+            "links": [
+                {
+                    "label": "NOVITÀ",
+                    "link": "https://gundamit.privategriffe.com/selezione/80"
+                },
+                {
+                    "label": "IN SCONTO %",
+                    "link": "https://gundamit.privategriffe.com/selezione/80"
+                },
+                {
+                    "label": "PRIMAVERA / ESTATE",
+                    "link": "https://gundamit.privategriffe.com/selezione/80"
+                }
+            ],
+            "publishing_image": {
+                "image": {
+                    "w1920": {
+                        "src": "https://dummyimage.com/300x150/ed0eed/fff.png",
+                        "srcset": "https://dummyimage.com/300x150/ed0eed/fff.png 1x"
+                    },
+                    "w1366": {
+                        "src": "https://dummyimage.com/300x150/ed0eed/fff.png",
+                        "srcset": "https://dummyimage.com/300x150/ed0eed/fff.png 1x, https://dummyimage.com/300x150/ed0eed/fff.png 2x"
+                    }
+                },
+                "alt": "passione moda",
+                "link": "https://gundamit.privategriffe.com/selezione/80"
+            }
+        }
+    },
+    "header.man": {
+        "link": "/uomo",
+        "columns": [
+            {
+                "title": "Abbigliamento",
+                "rows": [
+                    {
+                        "label": "Camicie",
+                        "link": "/c/donna/abbigliamento/camicie"
+                    },
+                    {
+                        "label": "Cappotti",
+                        "link": "/c/donna/abbigliamento/cappotti"
+                    },
+                    {
+                        "label": "Felpe",
+                        "link": "/c/donna/abbigliamento/felpe"
+                    },
+                    {
+                        "label": "Giacche",
+                        "link": "/c/donna/abbigliamento/giacche"
+                    },
+                    {
+                        "label": "Gonne",
+                        "link": "/c/donna/abbigliamento/gonne"
+                    },
+                    {
+                        "label": "Maglieria",
+                        "link": "/c/donna/abbigliamento/maglieria"
+                    },
+                    {
+                        "label": "Mare",
+                        "link": "/c/donna/abbigliamento/mare"
+                    },
+                    {
+                        "label": "Pantaloni",
+                        "link": "/c/donna/abbigliamento/pantaloni"
+                    }
+                ],
+                "see_all_link": "/c/donna/abbigliamento"
+            },
+            {
+                "title": "Borse",
+                "rows": [
+                    {
+                        "label": "Borse a mano",
+                        "link": "/c/donna/borse/borse-a-mano"
+                    },
+                    {
+                        "label": "Borse in pelle",
+                        "link": "/c/donna/borse/borse-in-pelle"
+                    },
+                    {
+                        "label": "Pochette",
+                        "link": "/c/donna/borse/pochette"
+                    },
+                    {
+                        "label": "Shopper",
+                        "link": "/c/donna/borse/shopper"
+                    },
+                    {
+                        "label": "Borse da spalla",
+                        "link": "/c/donna/borse/borse-da-spalla"
+                    },
+                    {
+                        "label": "Borse in tessuto",
+                        "link": "/c/donna/borse/borse-in-tessuto"
+                    },
+                    {
+                        "label": "Borse a tracolla",
+                        "link": "/c/donna/borse/borse-a-tracolla"
+                    },
+                    {
+                        "label": "Valigeria",
+                        "link": "/c/donna/borse/valigeria"
+                    }
+                ],
+                "see_all_link": "/c/donna/borse"
+            },
+            {
+                "title": "Scarpe",
+                "rows": [
+                    {
+                        "label": "Anfibi",
+                        "link": "/c/donna/scarpe/anfibi"
+                    },
+                    {
+                        "label": "Ballerine",
+                        "link": "/c/donna/scarpe/ballerine"
+                    },
+                    {
+                        "label": "Decolletes",
+                        "link": "/c/donna/scarpe/decolletes"
+                    },
+                    {
+                        "label": "Decolletes open toe",
+                        "link": "/c/donna/scarpe/decolletes-open-toe"
+                    },
+                    {
+                        "label": "Infradito",
+                        "link": "/c/donna/scarpe/infradito"
+                    },
+                    {
+                        "label": "Mocassini",
+                        "link": "/c/donna/scarpe/mocassini"
+                    },
+                    {
+                        "label": "Sabot",
+                        "link": "/c/donna/scarpe/sabot"
+                    },
+                    {
+                        "label": "Sandali",
+                        "link": "/c/donna/scarpe/sandali"
+                    }
+                ],
+                "see_all_link": "/c/donna/scarpe"
+            },
+            {
+                "title": "Accessori",
+                "rows": [
+                    {
+                        "label": "Camicie",
+                        "link": "/c/donna/abbigliamento/camicie"
+                    },
+                    {
+                        "label": "Cappotti",
+                        "link": "/c/donna/abbigliamento/cappotti"
+                    },
+                    {
+                        "label": "Felpe",
+                        "link": "/c/donna/abbigliamento/felpe"
+                    },
+                    {
+                        "label": "Giacche",
+                        "link": "/c/donna/abbigliamento/giacche"
+                    },
+                    {
+                        "label": "Gonne",
+                        "link": "/c/donna/abbigliamento/gonne"
+                    },
+                    {
+                        "label": "Maglieria",
+                        "link": "/c/donna/abbigliamento/maglieria"
+                    },
+                    {
+                        "label": "Mare",
+                        "link": "/c/donna/abbigliamento/mare"
+                    },
+                    {
+                        "label": "Pantaloni",
+                        "link": "/c/donna/abbigliamento/pantaloni"
+                    }
+                ],
+                "see_all_link": "/c/donna/accessori"
+            },
+            {
+                "title": "Gioielli",
+                "rows": [
+                    {
+                        "label": "Camicie",
+                        "link": "/c/donna/abbigliamento/camicie"
+                    },
+                    {
+                        "label": "Cappotti",
+                        "link": "/c/donna/abbigliamento/cappotti"
+                    },
+                    {
+                        "label": "Felpe",
+                        "link": "/c/donna/abbigliamento/felpe"
+                    },
+                    {
+                        "label": "Giacche",
+                        "link": "/c/donna/abbigliamento/giacche"
+                    },
+                    {
+                        "label": "Gonne",
+                        "link": "/c/donna/abbigliamento/gonne"
+                    },
+                    {
+                        "label": "Maglieria",
+                        "link": "/c/donna/abbigliamento/maglieria"
+                    },
+                    {
+                        "label": "Mare",
+                        "link": "/c/donna/abbigliamento/mare"
+                    },
+                    {
+                        "label": "Pantaloni",
+                        "link": "/c/donna/abbigliamento/pantaloni"
+                    }
+                ],
+                "see_all_link": "/c/donna/accessori"
+            }
+        ],
+        "publishing_section": {
+            "links": [
+                {
+                    "label": "NOVITÀ",
+                    "link": "https://gundamit.privategriffe.com/selezione/80"
+                },
+                {
+                    "label": "IN SCONTO %",
+                    "link": "https://gundamit.privategriffe.com/selezione/80"
+                },
+                {
+                    "label": "PRIMAVERA / ESTATE",
+                    "link": "https://gundamit.privategriffe.com/selezione/80"
+                }
+            ],
+            "publishing_image": {
+                "image": {
+                    "w1920": {
+                        "src": "https://dummyimage.com/300x150/ed0eed/fff.png",
+                        "srcset": "https://dummyimage.com/300x150/ed0eed/fff.png 1x"
+                    },
+                    "w1366": {
+                        "src": "https://dummyimage.com/300x150/ed0eed/fff.png",
+                        "srcset": "https://dummyimage.com/300x150/ed0eed/fff.png 1x, https://dummyimage.com/300x150/ed0eed/fff.png 2x"
+                    }
+                },
+                "alt": "passione moda",
+                "link": "https://gundamit.privategriffe.com/selezione/80"
+            }
+        }
+    },
+    "header.kid": {
+        "link": "/bambino",
+        "columns": [
+            {
+                "title": "Abbigliamento",
+                "rows": [
+                    {
+                        "label": "Camicie",
+                        "link": "/c/donna/abbigliamento/camicie"
+                    },
+                    {
+                        "label": "Cappotti",
+                        "link": "/c/donna/abbigliamento/cappotti"
+                    },
+                    {
+                        "label": "Felpe",
+                        "link": "/c/donna/abbigliamento/felpe"
+                    },
+                    {
+                        "label": "Giacche",
+                        "link": "/c/donna/abbigliamento/giacche"
+                    },
+                    {
+                        "label": "Gonne",
+                        "link": "/c/donna/abbigliamento/gonne"
+                    },
+                    {
+                        "label": "Maglieria",
+                        "link": "/c/donna/abbigliamento/maglieria"
+                    },
+                    {
+                        "label": "Mare",
+                        "link": "/c/donna/abbigliamento/mare"
+                    },
+                    {
+                        "label": "Pantaloni",
+                        "link": "/c/donna/abbigliamento/pantaloni"
+                    }
+                ],
+                "see_all_link": "/c/donna/abbigliamento"
+            },
+            {
+                "title": "Borse",
+                "rows": [
+                    {
+                        "label": "Borse a mano",
+                        "link": "/c/donna/borse/borse-a-mano"
+                    },
+                    {
+                        "label": "Borse in pelle",
+                        "link": "/c/donna/borse/borse-in-pelle"
+                    },
+                    {
+                        "label": "Pochette",
+                        "link": "/c/donna/borse/pochette"
+                    },
+                    {
+                        "label": "Shopper",
+                        "link": "/c/donna/borse/shopper"
+                    },
+                    {
+                        "label": "Borse da spalla",
+                        "link": "/c/donna/borse/borse-da-spalla"
+                    },
+                    {
+                        "label": "Borse in tessuto",
+                        "link": "/c/donna/borse/borse-in-tessuto"
+                    },
+                    {
+                        "label": "Borse a tracolla",
+                        "link": "/c/donna/borse/borse-a-tracolla"
+                    },
+                    {
+                        "label": "Valigeria",
+                        "link": "/c/donna/borse/valigeria"
+                    }
+                ],
+                "see_all_link": "/c/donna/borse"
+            },
+            {
+                "title": "Scarpe",
+                "rows": [
+                    {
+                        "label": "Anfibi",
+                        "link": "/c/donna/scarpe/anfibi"
+                    },
+                    {
+                        "label": "Ballerine",
+                        "link": "/c/donna/scarpe/ballerine"
+                    },
+                    {
+                        "label": "Decolletes",
+                        "link": "/c/donna/scarpe/decolletes"
+                    },
+                    {
+                        "label": "Decolletes open toe",
+                        "link": "/c/donna/scarpe/decolletes-open-toe"
+                    },
+                    {
+                        "label": "Infradito",
+                        "link": "/c/donna/scarpe/infradito"
+                    },
+                    {
+                        "label": "Mocassini",
+                        "link": "/c/donna/scarpe/mocassini"
+                    },
+                    {
+                        "label": "Sabot",
+                        "link": "/c/donna/scarpe/sabot"
+                    },
+                    {
+                        "label": "Sandali",
+                        "link": "/c/donna/scarpe/sandali"
+                    }
+                ],
+                "see_all_link": "/c/donna/scarpe"
+            },
+            {
+                "title": "Accessori",
+                "rows": [
+                    {
+                        "label": "Camicie",
+                        "link": "/c/donna/abbigliamento/camicie"
+                    },
+                    {
+                        "label": "Cappotti",
+                        "link": "/c/donna/abbigliamento/cappotti"
+                    },
+                    {
+                        "label": "Felpe",
+                        "link": "/c/donna/abbigliamento/felpe"
+                    },
+                    {
+                        "label": "Giacche",
+                        "link": "/c/donna/abbigliamento/giacche"
+                    },
+                    {
+                        "label": "Gonne",
+                        "link": "/c/donna/abbigliamento/gonne"
+                    },
+                    {
+                        "label": "Maglieria",
+                        "link": "/c/donna/abbigliamento/maglieria"
+                    },
+                    {
+                        "label": "Mare",
+                        "link": "/c/donna/abbigliamento/mare"
+                    },
+                    {
+                        "label": "Pantaloni",
+                        "link": "/c/donna/abbigliamento/pantaloni"
+                    }
+                ],
+                "see_all_link": "/c/donna/accessori"
+            },
+            {
+                "title": "Gioielli",
+                "rows": [
+                    {
+                        "label": "Camicie",
+                        "link": "/c/donna/abbigliamento/camicie"
+                    },
+                    {
+                        "label": "Cappotti",
+                        "link": "/c/donna/abbigliamento/cappotti"
+                    },
+                    {
+                        "label": "Felpe",
+                        "link": "/c/donna/abbigliamento/felpe"
+                    },
+                    {
+                        "label": "Giacche",
+                        "link": "/c/donna/abbigliamento/giacche"
+                    },
+                    {
+                        "label": "Gonne",
+                        "link": "/c/donna/abbigliamento/gonne"
+                    },
+                    {
+                        "label": "Maglieria",
+                        "link": "/c/donna/abbigliamento/maglieria"
+                    },
+                    {
+                        "label": "Mare",
+                        "link": "/c/donna/abbigliamento/mare"
+                    },
+                    {
+                        "label": "Pantaloni",
+                        "link": "/c/donna/abbigliamento/pantaloni"
+                    }
+                ],
+                "see_all_link": "/c/donna/accessori"
+            }
+        ],
+        "publishing_section": {
+            "links": [
+                {
+                    "label": "NOVITÀ",
+                    "link": "https://gundamit.privategriffe.com/selezione/80"
+                },
+                {
+                    "label": "IN SCONTO %",
+                    "link": "https://gundamit.privategriffe.com/selezione/80"
+                },
+                {
+                    "label": "PRIMAVERA / ESTATE",
+                    "link": "https://gundamit.privategriffe.com/selezione/80"
+                }
+            ],
+            "publishing_image": {
+                "image": {
+                    "w1920": {
+                        "src": "https://dummyimage.com/300x150/ed0eed/fff.png",
+                        "srcset": "https://dummyimage.com/300x150/ed0eed/fff.png 1x"
+                    },
+                    "w1366": {
+                        "src": "https://dummyimage.com/300x150/ed0eed/fff.png",
+                        "srcset": "https://dummyimage.com/300x150/ed0eed/fff.png 1x, https://dummyimage.com/300x150/ed0eed/fff.png 2x"
+                    }
+                },
+                "alt": "passione moda",
+                "link": "https://gundamit.privategriffe.com/selezione/80"
+            }
+        }
+    },
+    "header.brand": {
+        "link": "/brands",
+        "columns": [
+            {
+                "title": "TUTTI I BRAND",
+                "rows": [
+                    {
+                        "label": "Brand 1",
+                        "link": "/brand1"
+                    },
+                    {
+                        "label": "Brand 2",
+                        "link": "/brand2"
+                    },
+                    {
+                        "label": "Brand 3",
+                        "link": "/brand4"
+                    },
+                    {
+                        "label": "Brand 4",
+                        "link": "/brand4"
+                    },
+                    {
+                        "label": "Brand 5",
+                        "link": "/brand5"
+                    },
+                    {
+                        "label": "Brand 6",
+                        "link": "/brand6"
+                    },
+                    {
+                        "label": "Brand 7",
+                        "link": "/brand7"
+                    },
+                    {
+                        "label": "Brand 8",
+                        "link": "/brand8"
+                    }
+                ]
+            },
+            {
+                "rows": [
+                    {
+                        "label": "Brand 1",
+                        "link": "/brand1"
+                    },
+                    {
+                        "label": "Brand 2",
+                        "link": "/brand2"
+                    },
+                    {
+                        "label": "Brand 3",
+                        "link": "/brand4"
+                    },
+                    {
+                        "label": "Brand 4",
+                        "link": "/brand4"
+                    },
+                    {
+                        "label": "Brand 5",
+                        "link": "/brand5"
+                    },
+                    {
+                        "label": "Brand 6",
+                        "link": "/brand6"
+                    },
+                    {
+                        "label": "Brand 7",
+                        "link": "/brand7"
+                    },
+                    {
+                        "label": "Brand 8",
+                        "link": "/brand8"
+                    }
+                ]
+            },
+            {
+                "rows": [
+                    {
+                        "label": "Brand 1",
+                        "link": "/brand1"
+                    },
+                    {
+                        "label": "Brand 2",
+                        "link": "/brand2"
+                    },
+                    {
+                        "label": "Brand 3",
+                        "link": "/brand4"
+                    },
+                    {
+                        "label": "Brand 4",
+                        "link": "/brand4"
+                    },
+                    {
+                        "label": "Brand 5",
+                        "link": "/brand5"
+                    },
+                    {
+                        "label": "Brand 6",
+                        "link": "/brand6"
+                    },
+                    {
+                        "label": "Brand 7",
+                        "link": "/brand7"
+                    },
+                    {
+                        "label": "Brand 8",
+                        "link": "/brand8"
+                    }
+                ],
+                "see_all_link": "/brands"
+            },
+            {
+                "title": "TOP BRAND",
+                "rows": [
+                    {
+                        "label": "Brand 1",
+                        "link": "/brand1"
+                    },
+                    {
+                        "label": "Brand 2",
+                        "link": "/brand2"
+                    },
+                    {
+                        "label": "Brand 3",
+                        "link": "/brand4"
+                    },
+                    {
+                        "label": "Brand 4",
+                        "link": "/brand4"
+                    },
+                    {
+                        "label": "Brand 5",
+                        "link": "/brand5"
+                    },
+                    {
+                        "label": "Brand 6",
+                        "link": "/brand6"
+                    },
+                    {
+                        "label": "Brand 7",
+                        "link": "/brand7"
+                    }
+                ],
+                "see_all_link": "/brands"
+            },
+            {
+                "title": "SPORTS BRAND",
+                "rows": [
+                    {
+                        "label": "Brand 1",
+                        "link": "/brand1"
+                    },
+                    {
+                        "label": "Brand 2",
+                        "link": "/brand2"
+                    },
+                    {
+                        "label": "Brand 3",
+                        "link": "/brand4"
+                    },
+                    {
+                        "label": "Brand 4",
+                        "link": "/brand4"
+                    },
+                    {
+                        "label": "Brand 5",
+                        "link": "/brand5"
+                    },
+                    {
+                        "label": "Brand 6",
+                        "link": "/brand6"
+                    }
+                ],
+                "see_all_link": "/brands"
+            }
+        ],
+        "publishing_section": {
+            "links": [
+                {
+                    "label": "NOVITÀ",
+                    "link": "https://gundamit.privategriffe.com/selezione/80"
+                },
+                {
+                    "label": "IN SCONTO %",
+                    "link": "https://gundamit.privategriffe.com/selezione/80"
+                },
+                {
+                    "label": "PRIMAVERA / ESTATE",
+                    "link": "https://gundamit.privategriffe.com/selezione/80"
+                }
+            ],
+            "publishing_image": {
+                "image": {
+                    "w1920": {
+                        "src": "https://dummyimage.com/300x150/ed0eed/fff.png",
+                        "srcset": "https://dummyimage.com/300x150/ed0eed/fff.png 1x"
+                    },
+                    "w1366": {
+                        "src": "https://dummyimage.com/300x150/ed0eed/fff.png",
+                        "srcset": "https://dummyimage.com/300x150/ed0eed/fff.png 1x, https://dummyimage.com/300x150/ed0eed/fff.png 2x"
+                    }
+                },
+                "alt": "passione moda",
+                "link": "https://gundamit.privategriffe.com/selezione/80"
+            }
+        }
+    },
+    "header.new_in": {
+        "link": "/new-in"
+    },
+    "header.promo": {
+        "link": "/promo"
+    }
+}

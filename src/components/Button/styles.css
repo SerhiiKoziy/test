@@ -1,0 +1,125 @@
+@import 'src/styles/queries.css';
+@import 'src/styles/keyframes.css';
+
+.container {
+  background-color: #1d1d1b;
+  display: inline-block;
+  min-width: 175px;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 12px 42px;
+  border-style: solid;
+  border-color: #fff;
+  color: #fff;
+  border-width: 2px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.2s;
+
+  & .text {
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    margin-top: 0.25em;
+  }
+
+  @media screen and (--screen-sm-down) {
+    padding: 6px 8px;
+    min-width: 125px;
+    max-width: 480px;
+    /*font-size: 0.6rem;*/
+    font-size: 1.6rem;
+    width: 100%;
+  }
+
+  &:hover {
+    background-color: #fff;
+    border-color: black;
+
+    & .text {
+      color: #1d1d1b;
+    }
+  }
+}
+
+.containerReverse {
+  background-color: white;
+  display: inline-block;
+  min-width: 175px;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 12px 42px;
+  
+  border-style: solid;
+  border-color: #000;
+  border-width: 2px;
+  
+  cursor: pointer;
+  text-align: center;
+  transition: 0.2s;
+
+  & .text {
+    text-transform: uppercase;
+    color: #000;
+    text-align: center; 
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    margin-top: 0.25em;
+  }
+
+  @media screen and (--screen-sm-down) {
+    padding: 6px 8px;
+    min-width: 125px;
+    max-width: 480px;
+    /*font-size: 0.6rem;*/
+    font-size: 1.6rem;
+    width: 100%;
+  }
+
+  &:hover {
+    background-color: #000;
+    border-color: #fff;
+
+    & .text {
+      color: #fff;
+    }
+  }
+}
+
+.containerDisabled {
+  background-color: #fff;
+  display: inline-block;
+  min-width: 175px;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 12px 42px;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 2px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.1s;
+  color: #1d1d1b;
+
+  & .text {
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    margin-top: 0.25em;
+  }
+
+  @media screen and (--screen-sm-down) {
+    padding: 6px 24px;
+    min-width: 125px;
+    font-size: 0.6rem;
+  }
+}
+

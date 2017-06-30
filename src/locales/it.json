@@ -1,0 +1,249 @@
+{
+  "risultati": "Risultati",
+  "filtra_per": "Filtra per",
+  "filtro": "filtro",
+  "visualizza": "visualizza",
+  "header": {
+    "woman": "Donna",
+    "man": "Uomo",
+    "kid": "Bambino",
+    "brand": "Brand",
+    "new_in": "Novità",
+    "promo": "Promo%"
+  },
+  "brand": "Brand",
+  "new_in": "Novità",
+  "promo": "Promo%",
+  "material": "Materiale",
+  "season": "Stagione",
+  "control": "Controllo",
+  "control.yes": "Sì",
+  "control.no": "No",
+  "condition": "Condizione",
+  "price": "Prezzo",
+  "size": "Taglia",
+  "color": "Colore",
+  "universe": "Universo",
+  "category2": "Categoria",
+  "con_facebook": "Con Facebook",
+  "useful_links": "Link Utili",
+  "PRIMAVERA / ESTATE": "PRIMAVERA / ESTATE",
+  "NOVITÀ": "NOVITÀ",
+  "IN SCONTO %": "IN SCONTO %",
+  "novita": "Novità",
+  "in_sconto": "In sconto %",
+  "primavera_estate": "Primavera / Estate",
+  "reso_e_autenticita_garantiti": "Reso e<br />autenticità<br />garantiti",
+  "restiamo_in_contatto": "Restiamo in contatto",
+  "informazioni_spedizioni_e_pagamenti": "Per informazioni riguardanti le spedizioni, l'ordine dei prodotti ed i pagamenti:",
+  "leggi_le_risposte_alle": "Leggi anche le risposte alle",
+  "domande_frequenti": "Domande frequenti",
+  "assistenza_clienti": "Assistenza Clienti",
+  "cerca": "CERCA",
+  "recupera_password": "Recupera password",
+  "registra_nuovo_account": "Registra un nuovo account",
+  "ti_verra_inviata_una_mail_con_la_nuova_password": "Ti verrà inviata un'email con la nuova password.",
+  "con_la_tua_email": "Con la tua email",
+  "torna_al_login": "Torna al login",
+  "accedi": "Accedi",
+  "newsletter_accept": "Accetto di ricevere la newsletter di Privategriffe",
+  "edit": "Modifica",
+  "save": "Salva",
+  "profile": {
+    "my_profile": "IL MIO PROFILO",
+    "personal_data": {
+      "title": "DATI UTENTE",
+      "status_available": "Status: Disponibile",
+      "status_away": "Status: In vacanza",
+      "profile_photo": "foto profilo",
+      "nickname": "nickname",
+      "email": "email",
+      "password": "password",
+      "firstname": "nome",
+      "lastname": "nickname",
+      "available": "disponibile",
+      "holiday": "in vacanza",
+      "start_holiday_date": "data di inizio vacanza",
+      "end_holiday_date": "data di fine vacanza",
+      "born_date": "data di nascita",
+      "day": "gg",
+      "month": "mm",
+      "year": "aaaa",
+      "sex": "sesso",
+      "male": "uomo",
+      "female": "donna",
+      "cellphone": "numero di cellulare",
+      "about_me": "su di me"
+    },
+    "fiscal_data": {
+      "title": "DATI FISCALI",
+      "no_data": "Nessun dato inserito",
+      "iban_view": "Iban: **{value}**",
+      "email_paypal_view": "Email Paypal: **{value}**",
+      "fiscal_code_view": "C.F.: **{value}**",
+      "id_number_view": "Numero carta d'identità: **{value}**",
+      "get_payment": "RICEZIONE PAGAMENTI",
+      "iban": "IBAN",
+      "email_paypal": "EMAIL PAYPAL",
+      "fiscal_code": "CODICE FISCALE",
+      "id_number": "NUMERO DOCUMENTO D'IDENTITA'"
+    },
+    "my_orders": {
+      "title": "I MIEI ORDINI"
+    },
+    "my_addresses": {
+      "title": "I MIEI INDIRIZZI"
+    },
+    "my_products": {
+      "title": "I MIEI ARTICOLI",
+      "subsections": {
+        "selling": "in vendita ({items})",
+        "draft": "in bozza ({items})",
+        "approvation": "in approvazione ({items})",
+        "rejected": "rifiutati ({items})",
+        "sold": "venduti ({items})",
+        "withdrawed": "ritirati ({items})"
+      }
+    },
+    "newsletter": {
+      "title": "NEWSLETTER"
+    }
+  },
+  "selling": {
+    "container": {
+      "title": "VENDI",
+      "breadcrumb_step_1": "DATI GENERALI",
+      "breadcrumb_step_2": "DETTAGLI",
+      "breadcrumb_step_3": "FOTOGRAFIE",
+      "breadcrumb_step_4": "CONFERMA",
+      "button_back": "INDIETRO",
+      "button_save_draft": "SALVA BOZZA",
+      "button_continue": "PROSEGUI"
+    },
+    "general": {
+      "subtitle_article_genre": "GENERE ARTICOLO",
+      "subtitle_category": "CATEGORIA",
+      "subtitle_subcategory": "SOTTOCATEGORIA",
+      "subtitle_brand": "BRAND",
+      "subtitle_product_name": "NOME PRODOTTO",
+      "subtitle_description": "DESCRIZIONE",
+      "clothing": "ABBIGLIAMENTO",
+      "accessories": "ACCESSORI",
+      "bags": "BORSE",
+      "shoes": "SCARPE"
+    },
+    "detail": {
+      "subtitle_material": "MATERIALE",
+      "subtitle_color": "COLORE",
+      "subtitle_season": "STAGIONE",
+      "subtitle_size": "DIMENSIONE",
+      "subtitle_status": "CONDIZIONI",
+      "vintage": "Vintage (con più di 20 anni, preferibilmente di marca e raro)",
+      "size_height": "ALTEZZA\n(A)",
+      "size_width": "LARGHEZZA\n(B)",
+      "size_depth": "PROFONDITÀ\n(C)"
+    },
+    "pictures": {
+      "required_pictures": "Prodotto intero Fronte / Retro / Lato",
+      "other_pictures": "PUOI INSERIRE QUI ALTRE FOTO",
+      "picture_1": "FOTO 1*",
+      "picture_2": "FOTO 2*",
+      "picture_3": "FOTO 3*",
+      "details": "DETTAGLI",
+      "box": "CONFEZIONE",
+      "tags": "CARTELLINI",
+      "inside": "INTERNO",
+      "brand": "BRAND",
+      "defects": "DIFETTI",
+      "perfect_picture_guideline": "GUIDA \"FOTO PERFETTE\"",
+      "tooltip_add_3_photos": "Inserisci almeno 3 foto in formato jpg o png.",
+      "tooltip_max 10 photos": "Puoi inserire fino ad un massimo di 10 foto"
+    },
+    "confirm": {
+      "price": "PREZZO DI VENDITA",
+      "estimated_price": "PREZZO STIMATO DEL NUOVO",
+      "profit": "IL TUO GUADAGNO",
+      "discount_title": "AUMENTA LE CHANCE DI VENDERE IL TUO PRODOTTO!",
+      "discount_description": "Indica la percentuale di sconto massima che vuoi applicare, entrerai nelle nostre vendite promozionali accrescendone la visibilità.",
+      "charity": "Voglio devolvere il mio capo in beneficenza",
+      "phone": "NUMERO DI CELLULARE",
+      "phone_tip": "Non sarà visibile nell'annuncio",
+      "terms_and_conditions": "Con il completamento e l'invio della scheda del Prodotto dichiaro di assumere la piena responsabilità in merito alle mie dichiarazioni ed alle immagini, di conoscere le Condizioni d'Uso e di rispettarle, che il Prodotto è da me vendibile, di provenienza lecita ed autentico.",
+      "contacts": "Se sei un Venditore PROFESSIONALE contattataci all'indirizzo negozi@privategriffe.com.",
+      "help": "Ti consigliamo di vendere il tuo articolo dal 40% al 70% in meno rispetto al nuovo"
+    }
+  },
+  "generic": {
+    "add": "AGGIUNGI",
+    "name": "DESTINATARIO",
+    "street": "VIA/PIAZZA",
+    "street_number": "CIVICO",
+    "zip_code": "CAP",
+    "province": "PROVINCIA",
+    "town": "CITTÀ",
+    "country": "NAZIONE",
+    "phone": "TEL",
+    "email": "EMAIL",
+    "notes": "NOTE",
+    "subTotal": "Subtotale",
+    "shippingFees": "Spese di spedizione",
+    "cartTotal": "TOTALE CARRELLO",
+    "size": "Taglia"
+  },
+  "articoli": "articoli",
+  "checkout": {
+    "container": {
+      "title": "IL TUO CARRELLO",
+      "breadcrumb_step_1": "RIEPILOGO",
+      "breadcrumb_step_2": "I TUOI DATI",
+      "breadcrumb_step_3": "PAGAMENTO",
+      "header_center": "RESO su tutto il catalogo!",
+      "header_right": "Serve aiuto?",
+      "phone": "02 842.598.90",
+      "weekdays": "LUN-VEN 9-18"
+    },
+    "recap": {
+      "add_control": "AGGIUNGI CONTROLLO PRODOTTO",
+      "cart_total_amount": "TOTALE CARRELLO",
+      "button_back": "CONTINUA LO SHOPPING",
+      "button_continue": "PROSEGUI"
+    },
+    "recipient": {
+      "button_back": "INDIETRO",
+      "button_continue": "PROSEGUI",
+      "addresses": "I TUOI INDIRIZZI",
+      "field_name": "DESTINATARIO",
+      "field_basic_infos": "VIA/PIAZZA",
+      "field_additional_infos": "CIVICO",
+      "field_zip": "CAP",
+      "field_province": "PROVINCIA",
+      "field_city": "CITTÀ",
+      "field_country": "NAZIONE",
+      "field_phone": "TEL",
+      "field_email": "EMAIL",
+      "field_notes": "NOTE"
+    },
+    "payment": {
+      "button_back": "INDIETRO",
+      "button_continue": "PROSEGUI"
+    },
+    "success": {
+      "title": "Complimenti",
+      "subtitle": "IL TUO ORDINE È STATO EFFETTUATO!",
+      "description": "A breve riceverai una mail con i dettagli della consegna.",
+      "order_id": "ID ORDINE: ",
+      "finally_yours": "FINALMENTE TUA...",
+      "order_detail": "DETTAGLI DELL'ORDINE"
+    }
+  },
+  "cart_total": {
+    "you_saved": "Hai risparmiato",
+    "discount_info": "*Potrai utilizzare eventuali buoni sconto nella fase successiva"
+  },
+  "wishlist": {
+    "container": {
+      "article_detail": "Dettaglio articolo",
+      "add_to_cart": "Aggiungi al carrello"
+    }
+  }
+}
