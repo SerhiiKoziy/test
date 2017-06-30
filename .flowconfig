@@ -1,0 +1,16 @@
+[ignore]
+.*/node_modules/fbjs/.*
+
+[include]
+
+[libs]
+
+[options]
+; Mapping absolute paths starting from 'src'
+module.name_mapper='^src\/\(.*\)$' -> '<PROJECT_ROOT>/src/\1'
+unsafe.enable_getters_and_setters=true
+
+; No errors on decorators
+esproposal.decorators=ignore
+
+[version]

@@ -1,0 +1,50 @@
+{
+	"env": {
+		"development": {
+			"presets": [
+				"react",
+				["es2015", {"modules": "commonjs"}],
+				"stage-0"
+			],
+			"plugins": [
+				"transform-regenerator",
+				"react-hot-loader/babel",
+				"add-module-exports",
+				"babel-plugin-transform-decorators-legacy",
+				"transform-react-display-name",
+        ["module-resolver", { "alias": { "src": "./src" } }]
+			]
+		},
+		"production": {
+			"presets": [
+				["es2015", {"modules": "commonjs"}],
+				"react",
+				"stage-0"
+			],
+			"plugins": [
+				"transform-regenerator",
+				"syntax-export-extensions",
+				"transform-export-extensions",
+				"babel-plugin-transform-decorators-legacy",
+				"transform-react-display-name",
+        ["module-resolver", { "alias": { "src": "./src" } }]
+			]
+		},
+		"es6": {
+			"presets": [
+				["es2015", {"modules": "commonjs"}],
+				"react",
+				"stage-0"
+			],
+			"plugins": [
+				"transform-regenerator",
+				"react-hot-loader/babel",
+				"syntax-export-extensions",
+				"transform-export-extensions",
+				"babel-plugin-transform-decorators-legacy",
+				"transform-react-display-name",
+        ["module-resolver", { "alias": { "src": "./src" } }]
+			]
+		}
+	}
+}

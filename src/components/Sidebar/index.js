@@ -2,14 +2,10 @@
 import React, { Component } from 'react';
 import { isEmpty } from 'lodash';
 import { Link } from 'react-router-dom';
-import { map, mapKeys, toArray } from 'lodash';
 
 import Icon from 'src/components/SimpleLineIcon';
 import Text from 'src/components/TranslatedRichText';
-import Picture from 'src/components/Picture';
 
-import promotionImage from 'src/images/mock/menuHeader-left.png';
-import logo from 'src/images/privategriffe-full.png';
 import styles from './styles.css';
 
 type Props = {|
@@ -29,8 +25,15 @@ type State = {|
 
 class Sidebar extends Component<void, Props, State> {
   state = { isMobileMenuOpen: false };
+  constructor(props) {
+    super(props);
+    this.state = {
+      showProduct: false,
+      showMenu: false,
 
-  _renderMenuFirstLevelItemsingle = (code: string, menu: any) => {
+    };
+  }
+  _renderMenuFirstLevelItemSingle = (code: string, menu: any) => {
     return (
       <li>
         <div className={styles.level0_no_children}>
@@ -45,7 +48,7 @@ class Sidebar extends Component<void, Props, State> {
     return (
       <div className={styles.logout}>
         <Link to={menu.link}>
-          <img src="" alt="" />
+          <Icon name={"logout"} /> LOGOUT
         </Link>
       </div>
     );
@@ -54,11 +57,10 @@ class Sidebar extends Component<void, Props, State> {
   _renderMenuFirstLevelItem = (code: string, menu: any) => {
     console.log('menu', menu);
     return (
-      <li>
+      <li onClick={() => {::this.showList('show')}}>
         <div className={styles.level0_has_children}>
-          <Link to={menu.link}>
-            <Text id={code} />
-          </Link>
+          <span><Text id={code} /></span>
+
           <div className={styles.dropdownWrapper}>
             {this._renderDropdown(menu)}
           </div>
@@ -67,6 +69,11 @@ class Sidebar extends Component<void, Props, State> {
     );
   };
 
+  showList = () => {
+    const show = this.state.showProduct;
+    console.log('showProduct', this.state.showProduct);
+    this.setState({showProduct: !show})
+  };
   _renderRow = (row: any, key: number) => {
     return (
       <li key={key}>
@@ -105,46 +112,9 @@ class Sidebar extends Component<void, Props, State> {
     );
   };
 
-  _renderPublishingSectionLink = (section: any, key: number) => {
-    return (
-      <li key={key}>
-        <a href={section.link}>
-          <Icon name={'control-play'} /> <Text id={section.label} />
-        </a>
-      </li>
-    );
-  };
-
-  _renderPublishingSection = (publishing_section: any) => {
-    const pictures = toArray(
-      mapKeys(
-        publishing_section.publishing_image.image,
-        (v, k) => (v.maxWidth = k.replace('w', ''))
-      )
-    );
-    return (
-      <div>
-        <ul className={styles.links}>
-          {publishing_section.links.map(this._renderPublishingSectionLink)}
-        </ul>
-
-        <div className={styles.imageWrapper}>
-          <a href={publishing_section.publishing_image.link}>
-            <Picture
-              alt={publishing_section.publishing_image.alt}
-              defaultSrc={publishing_section.publishing_image.image['w1366'].src}
-              sources={pictures}
-              enableSpinner={true}
-            />
-          </a>
-        </div>
-      </div>
-    );
-  };
-
   _renderDropdown = (menu: any) => {
     return (
-      <div className={styles.dropdown}>
+      <div className={!this.state.showProduct ? styles.dropdown : styles.dropdownActive}>
 
         <div className={styles.dropdownCategories}>
           {menu.columns.map(this._renderColumn)}
@@ -152,70 +122,65 @@ class Sidebar extends Component<void, Props, State> {
       </div>
     );
   };
-
-  _renderIconMenu = (
-    icon: string,
-    badgeNumber: number = 0,
-    isSelected?: boolean = false,
-    onIconPressed?: () => any
-  ) => {
-    return (
+  _renderBtnCloseMenu = () => {
+    return(
       <div
-        className={isSelected ? styles.iconButtonSelected : styles.iconButton}
-        onClick={onIconPressed ? onIconPressed : () => null}
+        className={styles.closeOpenMenu}
+        onClick={() => {::this.closePopup()}}
       >
-        <Icon style={isSelected ? styles.iconSelected : styles.icon} name={icon} />
-        {badgeNumber > 0 && <span className={styles.badge}>{badgeNumber}</span>}
+        <span><Icon name={'close'} /></span>
       </div>
-    );
+    )
+  };
+  _renderBtnOpenMenu = () => {
+    return(
+      <div
+        className={this.state.showMenu  ? styles.btnOpenMenuHidden : styles.btnOpenMenu }
+        onClick={() => {::this.openPopup()}}
+      >
+        <span><Icon name={'menu'} /></span>
+      </div>
+    )
   };
 
-  _renderIconLink = (icon: string, badgeNumber: number = 0, path?: string) => {
-    return (
-      <Link className={styles.iconButton} to={path}>
-        <Icon style={styles.icon} name={icon} />
-        {badgeNumber > 0 && <span className={styles.badge}>{badgeNumber}</span>}
-      </Link>
-    );
-  };
 
-  _renderIconTextMenu = (text: string) => {
-    return (
-      <div className={styles.viewAllMenu}>
-        <Icon style={styles.viewAllIcon} name={'control-play'} onClick={() => {}} />
-        <p className={styles.viewAllText}>{text}</p>
-      </div>
-    );
+  openPopup = () => {
+    console.log('open');
+    this.setState({showMenu: true})
+  };
+  closePopup = () => {
+    console.log('close');
+    this.setState({showMenu: false})
   };
 
   render() {
     const {
       children,
-      promoMessage,
-      onSearchPressed,
-      isSearching,
-      whishlistBadgeNumber,
-      cartBadgeNumber,
       menu,
     } = this.props;
 
     const { isMobileMenuOpen } = this.state;
     return (
       <div className={styles.container}>
-        <div className={isMobileMenuOpen ? styles.primaryMobileMenuOpen : styles.primaryMobileMenu}>
+        <div
+          className={isMobileMenuOpen ? styles.primaryMobileMenuOpen : styles.primaryMobileMenu}
+        >
           {children}
         </div>
 
         <div className={styles.containerHeader}>
+          {this._renderBtnOpenMenu()}
 
-          <div className={styles.menuWrapper}>
+          <div className={!this.state.showMenu ? styles.menuWrapper : styles.menuWrapperOpen}>
+            {this._renderBtnCloseMenu()}
+
             <ul className={styles.primaryMenuMobile}>
-              {this._renderMenuFirstLevelItemsingle('header.new_in', menu['header.new_in'])}
-              {this._renderMenuFirstLevelItemsingle('header.new_in', menu['header.new_in'])}
-              {this._renderMenuFirstLevelItemsingle('header.new_in', menu['header.new_in'])}
+              {this._renderMenuFirstLevelItemSingle('header.woman', menu['header.woman'])}
+              {this._renderMenuFirstLevelItemSingle('header.man', menu['header.man'])}
+              {this._renderMenuFirstLevelItemSingle('header.kid', menu['header.kid'])}
+              {this._renderMenuFirstLevelItemSingle('header.new_in', menu['header.new_in'])}
               {this._renderMenuFirstLevelItem('header.brand', menu['header.brand'])}
-              {this._renderMenuFirstLevelItemsingle('header.new_in', menu['header.new_in'])}
-              {this._renderMenuFirstLevelItemsingle('header.promo', menu['header.promo'])}
+              {this._renderMenuFirstLevelItemSingle('header.products', menu['header.products'])}
             </ul>
             <div className={styles.logoutWr}>
               {this._renderMenuLogout('header.logout', menu['header.logout'])}

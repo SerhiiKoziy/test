@@ -749,8 +749,24 @@
     "header.new_in": {
         "link": "/new-in"
     },
+
     "header.promo": {
         "link": "/promo"
+    },
+    "header.myProfile": {
+        "link": "/myProfile"
+    },
+    "header.userData": {
+        "link": "/userData"
+    },
+    "header.myOrders": {
+        "link": "/myOrders"
+    },
+    "header.myAddress": {
+        "link": "/myAddress"
+    },
+    "header.products": {
+        "link": "/products"
     },
     "header.logout": {
         "link": "/logout"
