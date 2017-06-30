@@ -161,7 +161,41 @@ class Sidebar extends Component<void, Props, State> {
 
     const { isMobileMenuOpen } = this.state;
     return (
+
       <div className={styles.container}>
+        <div className={styles.sidebar}>
+          <ul>
+            <li onClick={() => {::this.openPopup()}}>
+              <p><Icon name={'user'} /></p>
+              <p>IL MIO Profilo</p>
+            </li>
+            <li onClick={() => {::this.openPopup()}}>
+              <p><Icon name={'info'} /></p>
+              <p>Come Funzina</p>
+            </li>
+            <li onClick={() => {::this.openPopup()}}>
+              <p><Icon name={'paper-plane'} /></p>
+              <p>vendi</p>
+            </li>
+            <li onClick={() => {::this.openPopup()}}>
+              <p><Icon name={'present'} /></p>
+              <p>invita de guadagna</p>
+            </li>
+            <li onClick={() => {::this.openPopup()}}>
+              <p><Icon name={'book-open'} /></p>
+              <p>blog</p>
+            </li>
+            <li onClick={() => {::this.openPopup()}}>
+              <p><Icon name={'share'} /></p>
+              <p>condividi</p>
+            </li>
+            <li className={styles.mes}>
+              <p></p>
+              <p><Icon name={'bell'} /></p>
+            </li>
+
+          </ul>
+        </div>
         <div
           className={isMobileMenuOpen ? styles.primaryMobileMenuOpen : styles.primaryMobileMenu}
         >

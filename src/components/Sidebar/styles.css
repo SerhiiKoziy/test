@@ -11,8 +11,40 @@
   width: 100%;
   position: relative;
   box-sizing: border-box;
-}
 
+}
+.sidebar{
+  position: fixed;
+  left: 0;
+
+  top: 0;
+  height: 100%;
+  width: 70px;
+  background: #000;
+  z-index: 20;
+  & ul{
+      padding: 0;
+      & li{
+          display: flex;
+          flex-direction: column;
+          cursor: pointer;
+
+        & p{
+          color: #fff;
+          width: 100%;
+          text-align: center;
+
+          font-size: 25px;
+
+          &:last-child{
+             text-transform: uppercase;
+             font-size: 10px;
+             margin: 0 0 10px 0;
+           }
+        }
+      }
+  }
+}
 .promoText {
   text-align: center;
   font-weight: bold;
@@ -32,6 +64,8 @@
   justify-content: space-between;
   flex-wrap: wrap;
   overflow: visible;
+  padding: 0 0 0 70px;
+  box-sizing: border-box;
   & .btnOpenMenu, & .btnOpenMenuHidden{
     position: absolute;
     left: 0;
@@ -48,19 +82,25 @@
         color: #ffffff;
       }
     }
-
+  $ .btnOpenMenu {
+    display: none;
+  }
   & .btnOpenMenuHidden {
       z-index: -1;
-    }
+  }
 
 }
 
 .menuWrapper, .menuWrapperOpen {
   position: relative;
   box-sizing: border-box;
-  display: none;
   background: #fff;
-
+  display: flex;
+  max-width: 500px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s width;
   order: 2;
   & .closeOpenMenu{
       position: absolute;
@@ -98,7 +138,11 @@
     padding: 0;
   z-index: 1;
     list-style: none;
-
+      flex-direction: column;
+      padding: 50px 0 0 0;
+      box-sizing: border-box;
+      background: #fff;
+      width: 100%;
     & > li {
       display: block;
           background: #fff;
@@ -115,6 +159,7 @@
           color: black;
           text-decoration: none;
           cursor: pointer;
+          text-align: center;
         }
 
         & > a {
@@ -149,8 +194,29 @@
       }
     }
   }
-}
+  & .logoutWr{
+      width: 100%;
+    & .logout{
+        background: #fff;
+      & a{
+          display: block;
+          color: #000;
+          text-decoration: none;
+          padding: 26px 30px;
+          box-sizing: border-box;
+        }
+      }
 
+  }
+}
+.menuWrapper{
+  width: 0%;
+  overflow: hidden;
+}
+.menuWrapperOpen{
+  width: 100%;
+  max-width: 500px;
+}
 
 .actionsWrapper {
   box-sizing: border-box;
@@ -233,7 +299,6 @@
   }
 
   .menuWrapper {
-    width: 100%;
     order: 3;
 
     & ul.primaryMenuMobile {
@@ -247,13 +312,30 @@
     order: 2;
   }
 }
+@media screen and (min-width: 767px) {
+  .containerHeader {
+    & .btnOpenMenu{
+      display: none;
+    }
+    & .btnOpenMenuHidden {
+        display: none;
+    }
+  }
 
+}
 @media screen and (max-width: 767px) {
   .containerHeader {
     align-items: stretch;
+    padding: 0 0 0 50px;
     margin: 0;
-  }
+    $ .btnOpenMenu {
+      display: block;
+    }
 
+  }
+.sidebar{
+  display: none;
+}
   .container {
     /*padding: 6px;*/
   }
@@ -302,26 +384,14 @@
           }
         }
     }
-    & .logoutWr{
-      width: 100%;
-      & .logout{
-        background: #fff;
-        & a{
-            display: block;
-            color: #000;
-          text-decoration: none;
-          padding: 26px 30px;
-          box-sizing: border-box;
-        }
-      }
 
-    }
   }
 .menuWrapper{
   width: 0%;
 }
 .menuWrapperOpen{
   width: 100%;
+
 }
   .logoWrapper {
     width: 50%;
